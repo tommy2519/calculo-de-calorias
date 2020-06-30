@@ -1,0 +1,45 @@
+pm=float(input('Digite o seu peso em kg:'))
+
+am=int(input('Digite a sua altura em cm:'))
+
+im=int(input('Digite a sua idade em anos:'))
+
+
+
+#para masculino
+
+x=(13.75*pm)+(5*am)-(6.75*im)+66.5
+
+
+
+#para feminino
+
+xf=(9.56 * p em kg)+(1.85 * a)-(4.68 * i em anos)+665
+
+resultado desse é o gasto calórico para manter o corpo vivo por 1 dia
+
+print('Essa é a tabela de atividade: ')
+
+print('1.2 = sedentário')
+
+print('1.375 = de 1 a 3 dias de treino por semana')
+
+print('1.55 = de 3 a 5 dias de treino por semana')
+
+print('1.725 = de 5 a 6 dias de treino por semana')
+
+print('1.9 = exércicio intenso diáriamente ou até 2 vezes no mesmo dia')
+
+
+
+atividadesemanal=float(input('Digite o número que se adequa ao seu desempenho semanal: '))
+
+
+
+resultado masculino 
+y=atividadesemanal*x
+
+resultado feminino
+z =atividadesemanal*xf 
+
+esse resultado é o gasto calorico diário com a atividade inclusa
